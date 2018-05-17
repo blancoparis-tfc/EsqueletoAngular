@@ -1,6 +1,10 @@
 <mat-toolbar>  
   <mat-toolbar-row>
-      <button mat-icon-button >
+      <mat-menu #appMenu="matMenu">
+          <button mat-menu-item  routerLink="/inicio">Inicio</button>
+          <button mat-menu-item>About(Pendiente desarrollo)</button>
+      </mat-menu>
+      <button mat-icon-button [matMenuTriggerFor]="appMenu" >
           <mat-icon>more_vert</mat-icon>
         </button>
     <span>Titulo</span>
@@ -9,5 +13,7 @@
     <span>D.B.P.</span>
   </mat-toolbar-row> 
 </mat-toolbar>
+
+
 
 <router-outlet></router-outlet>
