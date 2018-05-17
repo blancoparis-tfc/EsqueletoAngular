@@ -6,7 +6,12 @@
 /out-tsc
 
 # dependencies
+<<<<<<< HEAD
 /node_modules*
+=======
+/node_modules
+/node_modules_v2
+>>>>>>> 129d9a5ccbf2c742bbf6af5ddf4c3c2041e1ae66
 
 # IDEs and editors
 /.idea
