@@ -51,6 +51,21 @@ Mirar la siguietne pagina: https://stackoverflow.com/questions/49810580/error-lo
 
 MError: Local workspace file ('angular.json') could not be found.
     at WorkspaceLoader._getProjectWorkspaceFilePath (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\model    at WorkspaceLoader.loadWorkspace (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\workspace-loa    at ServeCommand._loadWorkspaceAndArchitect (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\arc    at ServeCommand.<anonymous> (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\architect-command.    at next (native)
+
+**Solucion**
+
+Se encuentra en esta tarea https://github.com/angular/angular-cli/issues/10254
+
+1. Se intala la version
+2. Se actualiza desde la nueva (Es algo que han tenido que hacer a doc)
+```
+npm install @angular/cli@6.0.0
+ng update @angular/cli --migrate-only --from=1
+```
+
+```
+```
+
 ## Errores install
 
 https://github.com/angular/
