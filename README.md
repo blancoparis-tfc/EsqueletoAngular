@@ -26,42 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Errores install
-
-https://github.com/angular/angular-cli/issues/10034
-
-al parecer este error se produce por la versión de angular material, al tener una version de angular 5.2.10, le hemos puestos a fuego la version 5.2.5 de angular material, para que valla acuerdo del tema.
-
-**ERROR**
-```
-WARNING in ./node_modules/@angular/material/esm5/core.es5.js
-1334:59-75 "export 'defineInjectable' was not found in '@angular/core'
-
-WARNING in ./node_modules/@angular/material/esm5/core.es5.js
-2107:83-104 "export 'ANIMATION_MODULE_TYPE' was not found in '@angular/platform-browser/animations'
-
-WARNING in ./node_modules/@angular/cdk/esm5/bidi.es5.js
-39:11-17 "export 'inject' was not found in '@angular/core'
-
-WARNING in ./node_modules/@angular/material/esm5/core.es5.js
-525:11-17 "export 'inject' was not found in '@angular/core'
-
-WARNING in ./node_modules/@angular/cdk/esm5/platform.es5.js
-79:128-134 "export 'inject' was not found in '@angular/core'
-
-WARNING in ./node_modules/@angular/cdk/esm5/platform.es5.js
-79:50-66 "export 'defineInjectable' was not found in '@angular/core'
-
-WARNING in ./node_modules/@angular/cdk/esm5/bidi.es5.js
-86:146-152 "export 'inject' was not found in '@angular/core'
-
-WARNING in ./node_modules/@angular/cdk/esm5/bidi.es5.js
-86:56-72 "export 'defineInjectable' was not found in '@angular/core'
-```
-
-
-## Actualizar a angular cli 6
-
+    at E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\architect-command.js:7:71
+    at __awaiter (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\architect-command.js:3:12)
+    at ServeCommand.initialize (E:\entorno\Esqueletngular\node_modules\@angular\cli\models\architect-command.j    at Object.<anonymous> (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\command-runner.js:87:23)    at next (native)
+MMirar lsi```
+Nosguietne pagina: https://stackoverflow.com/questions/49810580/error-local-workspace-file-angular-json-could-not-be-found
 
 
 
@@ -78,8 +47,38 @@ Error: Local workspace file ('angular.json') could not be found.
 Nos indica que ejecutemos el siguiente comando.
 
 Mirar la siguietne pagina: https://stackoverflow.com/questions/49810580/error-local-workspace-file-angular-json-could-not-be-found
+ indica que ejecutemos el siguiente comando.
 
+MError: Local workspace file ('angular.json') could not be found.
+    at WorkspaceLoader._getProjectWorkspaceFilePath (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\model    at WorkspaceLoader.loadWorkspace (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\workspace-loa    at ServeCommand._loadWorkspaceAndArchitect (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\arc    at ServeCommand.<anonymous> (E:\entorno\EsqueletoAngular\node_modules\@angular\cli\models\architect-command.    at next (native)
+## Errores install
+
+https://github.com/angular/
+```
+Local workspace file ('angular.json') could not be found.
+angular-cli/issues/10034
+
+al parecer este error se produce por la versión de angular material, al tener una version de angular 5.2.10, le hemos puestos a fuego la version 5.2.5 de angular material, para que valla acuerdo del tema.
+
+**ERROR**
+```
+WARNING in ./node_modules/@angular/material/esm5/core.es5.js
+1334:59-75 "export 'defineInjectable' was not found in '@angular/core'
+
+WARNING in ./node_modules/@angular/material/esm5/core.es5.js
+2107:83-104 "export 'ANIMATION_MODULE_TYPE' was not found in '@angular/platform-browser/animations'
+
+WARNING in ./node_modules/@angular/cdk/esm5/b
+
+Nos  dado los siguientes roblemas
 
 ```
-ng update @angular/cli --migrate-only --from=1.7.4
-``` 
+Local workspace file ('angular.json') could not be found.
+Error: Local workspace file (
+```
+Local workspace file ('angular.json') could not be found.
+Error: Local workspace file (
+NING in ./node_modules/@angular/cdk/esm5/bNING in ./node_modules/@angular/cdk/esm5/bidi.es5.js
+39:11-17 "export 'inject' was not found in '@aar/core'
+
+WA
